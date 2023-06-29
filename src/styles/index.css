@@ -1,12 +1,38 @@
+body{
+    background-color: antiquewhite;
+}
 
-/* 
+.bigCounter div{
+   
+    background: #212529;
+    padding: 40px;
+    color: white;
+    border: 1px solid rgb(153, 151, 151);
+    border-radius: 3px;
+    font-size: 30px;
+     
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.bigCounter{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+}
 
-*/
+.button,.down{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+ #downButton {
+    margin-top: 40px;
+    width: 70px;
+    height: 35px;
+    align-items: center;
+    background-color: rgb(130, 235, 229);
+    color:white;
+ }
